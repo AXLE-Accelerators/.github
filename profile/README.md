@@ -28,6 +28,8 @@ AXLE-Accelerators is dedicated to advancing the next generation of automotive AI
 - **AI Accelerator RTL:**  
   Modular, scalable SystemVerilog designs for neural network inference and sensor data processing.
 
+### Coming soon
+
 - **Predictive Maintenance Engines:**  
   Hardware and algorithms for early detection of vehicle anomalies, reducing downtime and improving fleet reliability.
 
