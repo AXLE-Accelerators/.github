@@ -23,7 +23,7 @@ AXLE-Accelerators is dedicated to advancing the next generation of automotive AI
 
 ---
 
-## Portfolio & Projects
+## Solutions
 
 - **AI Accelerator RTL:**  
   Modular, scalable SystemVerilog designs for neural network inference and sensor data processing.
