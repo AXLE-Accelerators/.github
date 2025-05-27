@@ -52,7 +52,7 @@ AXLE-Accelerators is dedicated to advancing the next generation of automotive AI
 ## Connect With Us
 
 - **Contact:**  
-  For partnership, pilot, or career inquiries, please reach out via [GitHub Issues](https://github.com/AXLE-Accelerators) or email us at [your-email@example.com].
+  For partnership, pilot, or career inquiries, please reach out via [GitHub Issues](https://github.com/AXLE-Accelerators).
 
 - **Careers:**  
   Interested in building the future of automotive AI hardware? We’re always looking for passionate engineers and collaborators.
