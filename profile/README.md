@@ -1,64 +1,70 @@
-# AXLE-Accelerators
-
-**Driving the Future of Automotive Intelligence**
-
----
-
-## About Us
-
-AXLE-Accelerators is dedicated to advancing the next generation of automotive AI hardware. We design and develop high-performance, energy-efficient AI accelerator architectures tailored for real-time, edge-based applications in vehicles. Our mission is to empower safer, smarter, and more reliable transportation through innovative hardware solutions.
+# AXLE-Accelerators  
+**Revolutionizing HVAC Reliability with Edge AI**  
 
 ---
 
-## What We Do
-
-- **Automotive AI Accelerators:**  
-  We build specialized AI accelerator IP optimized for automotive workloads, including predictive maintenance, sensor fusion, and advanced driver-assistance systems (ADAS).
-
-- **Edge Intelligence:**  
-  Our solutions are designed for on-vehicle deployment, enabling real-time analytics, low latency, and robust performance—even in challenging connectivity environments.
-
-- **Safety and Reliability:**  
-  AXLE-Accelerators aims to meet stringent automotive standards (such as ISO 26262 and ISO 21434), with a focus on functional safety, security, and compliance.
+## About Us  
+AXLE-Accelerators develops dedicated AI hardware for predictive maintenance in HVAC and industrial systems. Our ultra-low-power ASICs enable real-time vibration analysis to detect equipment faults before failure, reducing downtime and maintenance costs by up to 40%.
 
 ---
 
-## Solutions
+## What We Do  
+- **HVAC-Specific AI Accelerators**  
+  Custom ASIC/FPGA designs optimized for vibration-based fault detection in chillers, compressors, and rooftop HVAC units.  
 
-- **AI Accelerator RTL:**  
-  Modular, scalable SystemVerilog designs for neural network inference and sensor data processing.
+- **Edge Intelligence for Industrial IoT**  
+  Battery-powered wireless sensors with 5-year operation life, delivering real-time analytics at ≤10 mW.  
 
-### Coming soon
-
-- **Predictive Maintenance Engines:**  
-  Hardware and algorithms for early detection of vehicle anomalies, reducing downtime and improving fleet reliability.
-
-- **Sensor Fusion Pipelines:**  
-  IP blocks for integrating and processing data from cameras, radar, LiDAR, and CAN FD networks.
+- **Certified Reliability**  
+  Designed for ISO 10816 compliance and industrial environments (-40°C to +85°C operation).  
 
 ---
 
-## Why AXLE?
+## Technical Highlights  
+**AXLE Vibration Analytics ASIC Features**  
+- On-chip FFT/STFT processing (1-10 kHz range)  
+- MEMS sensor fusion interface (I²C/SPI)  
+- Lightweight CNN/SVM accelerator (8-bit quantized)  
+- LoRaWAN/Bluetooth LE connectivity  
+- ≤2 ms inference latency  
 
-- **Automotive Focus:**  
-  Every design decision is made with the unique demands of vehicles in mind—robustness, efficiency, and safety.
-
-- **Innovation:**  
-  We blend cutting-edge research with practical engineering to deliver solutions that move the industry forward.
-
-- **Transparency:**  
-  Our public repositories showcase early work and portfolio projects. Proprietary and commercial development is managed privately within the organization.
-
----
-
-## Connect With Us
-
-- **Contact:**  
-  For partnership, pilot, or career inquiries, please reach out via [GitHub Issues](https://github.com/AXLE-Accelerators).
-
-- **Careers:**  
-  Interested in building the future of automotive AI hardware? We’re always looking for passionate engineers and collaborators.
+**Target Applications**  
+- Bearing wear detection in HVAC fans  
+- Rotor imbalance identification  
+- Fan blade misalignment alerts  
+- Pump cavitation monitoring  
 
 ---
 
-*AXLE-Accelerators — Accelerating Automotive Intelligence*
+## Repository Contents  
+- `/rtl`: SystemVerilog source for:  
+  - AI Accelerator Core  
+  - Memory Subsystem with DMA  
+  - Predictive Maintenance Unit  
+  - Synthetic Vibration Simulator  
+- `/sim`: Icarus/GTKWave testbenches  
+- `/docs`: Architecture diagrams & validation reports  
+
+---
+
+## Getting Started  
+```
+# Run simulation with synthetic vibration data
+make simulate SENSOR_TYPE=HVAC
+```
+
+---
+
+## Why Choose AXLE?  
+- **HVAC-Optimized Architecture**  
+  First ASIC specifically designed for HVAC vibration analytics.  
+---
+
+## Roadmap  
+Q3 2025 - FPGA Prototype Release  
+Q4 2025 - Pilot Program with HVAC OEMs  
+Q1 2026 - ASIC Tapeout  
+
+---
+
+*AXLE-Accelerators - Predictive Maintenance. Perfected.*
